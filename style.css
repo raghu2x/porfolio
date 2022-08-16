@@ -7,7 +7,6 @@
 	--primary_color: #0d6efd;
 	--primary_shade: #a1c7ff;
 	--gradient: linear-gradient(135deg, var(--primary_color), var(--primary_color));
-	/* --bg_dark: rgb(255, 255, 255); */
 	--bg_dark: rgb(36, 36, 36);
 }
 
@@ -70,21 +69,10 @@ section .section-title::before {
 	height: 2.5px;
 }
 
-/* .footer-links > * {
-	display: inline-block;
-	width: 30px;
-	height: 30px;
-	font-size: 20px;
-	border-radius: 50%;
-}
- */
 .carousel-item img {
 	max-height: 95vh;
 }
 
 .services-card {
 	background: rgb(208, 232, 255);
-}
-.nav-link.active{
-	color: red !important;
 }

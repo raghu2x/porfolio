@@ -12,7 +12,7 @@ const scrolled = () => {
 		if (top >= offset && top < offset + height) link.classList.add("active");
 		else link.classList.remove("active");
 
-		// top > 900 ? nav.classList.add("show") : nav.classList.remove("show");
+		top > 200 ? nav.classList.add("bg-light") : nav.classList.remove("bg-light");
 	}
 };
 window.addEventListener("scroll", scrolled);
